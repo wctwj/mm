@@ -11,6 +11,13 @@ import { asyncRouterMap } from '@/router'
 import routerMaps from './router'
 // vuex
 // import app from './store/app'
+// import Vue from 'vue'
+// import VueQuillEditor from 'vue-quill-editor'
+// import 'quill/dist/quill.core.css'
+// import 'quill/dist/quill.snow.css'
+// import 'quill/dist/quill.bubble.css'
+  
+// Vue.use(VueQuillEditor)
 
 export default {
   install(module, store) {
