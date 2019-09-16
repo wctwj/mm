@@ -2,8 +2,7 @@
   <div class="dashboard-container">
     <div class="app-container">
       <el-button class="btn" @click="addBtn">新增面试技巧</el-button>
-    </div>
-    <el-row :gutter="10" class="keys">
+      <el-row :gutter="10" class="keys">
       <el-col :span="10">
         关键字：
         <el-input
@@ -43,6 +42,7 @@
       </el-table-column>
     </el-table>
     <el-pagination class="pagination" background layout="prev, pager, next" :total="90"></el-pagination>
+    </div>
   </div>
 </template>
 
